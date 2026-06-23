@@ -1,0 +1,13 @@
+{
+  "name": "occam",
+  "owner": {
+    "name": "Jan Arnemann"
+  },
+  "plugins": [
+    {
+      "name": "occam",
+      "source": "./",
+      "description": "Anti-slop / over-engineering code review — multi-lens diff review with adversarial verification."
+    }
+  ]
+}
