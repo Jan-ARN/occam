@@ -7,7 +7,7 @@
     {
       "name": "occam",
       "source": "./",
-      "description": "Anti-slop / over-engineering code review — multi-lens diff review with adversarial verification."
+      "description": "Anti-slop / over-engineering code review — multi-lens diff review with adversarial verification that learns your repo's patterns over time."
     }
   ]
 }

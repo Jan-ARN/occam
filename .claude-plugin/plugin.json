@@ -1,7 +1,7 @@
 {
   "name": "occam",
-  "version": "0.1.0",
-  "description": "Anti-slop / over-engineering code review — multi-lens diff review with adversarial verification, run author-time before commit or review-time on a PR.",
+  "version": "0.2.0",
+  "description": "Anti-slop / over-engineering code review — multi-lens diff review with adversarial verification that learns your repo's patterns over time. Run author-time before commit or review-time on a PR.",
   "author": {
     "name": "Jan Arnemann"
   },
