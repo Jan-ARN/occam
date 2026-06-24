@@ -1,8 +1,19 @@
-# occam
+<!-- ===== HERO (custom SVG — assets/banner.svg) — ridgeline at dusk, the watch beacon, one clean cut ===== -->
+<img width="100%" src="https://raw.githubusercontent.com/Jan-ARN/occam/main/assets/banner.svg" alt="occam — anti-slop code review for Claude Code"/>
 
-**A Claude Code plugin that reviews a diff for AI slop and over-engineering** — single-use abstractions, reinvented helpers, scope creep, premature generality, dead weight, non-idiomatic code — and hands back a short, ranked, low-noise list of cuts, each with a concrete simpler rewrite.
+<div align="center">
 
-Named for Occam's razor: *don't multiply entities beyond necessity.*
+### Cut what the change didn’t need.
+
+A Claude Code plugin that reviews a diff for **AI slop and over-engineering** — single-use abstractions, reinvented helpers, scope creep, premature generality, dead weight, non-idiomatic code — and hands back a short, ranked, low-noise list of cuts, each with a concrete simpler rewrite. It learns your repo's patterns as you use it.
+
+<br/>
+
+![version](https://img.shields.io/badge/version-0.2.0-243F52?labelColor=162936&style=flat-square)
+![license](https://img.shields.io/badge/license-MIT-456A82?labelColor=162936&style=flat-square)
+![for Claude Code](https://img.shields.io/badge/for-Claude%20Code-F0C880?labelColor=162936&style=flat-square)
+
+</div>
 
 ```
 /occam
@@ -117,4 +128,7 @@ house-style/EXAMPLE.md            template for a per-repo house style
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
+
+<!-- ===== FOOTER (custom SVG — assets/footer.svg) — the same ridge at night, the razor's creed ===== -->
+<img width="100%" src="https://raw.githubusercontent.com/Jan-ARN/occam/main/assets/footer.svg" alt="entia non sunt multiplicanda praeter necessitatem — entities must not be multiplied beyond necessity"/>

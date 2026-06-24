@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Occam's razor — entities must not be multiplied beyond necessity">
+  <defs>
+    <linearGradient id="fsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#0F1C26"/>
+      <stop offset="0.6" stop-color="#152834"/>
+      <stop offset="1"   stop-color="#1C3445"/>
+    </linearGradient>
+    <radialGradient id="fbeacon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F0C880" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#F0C880" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="fframe"><rect width="1200" height="150"/></clipPath>
+  </defs>
+  <g clip-path="url(#fframe)">
+    <rect width="1200" height="150" fill="url(#fsky)"/>
+
+    <!-- faint stars -->
+    <g fill="#DCE6EE">
+      <circle cx="180" cy="34" r="0.9" opacity="0.5"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="1010" cy="28" r="1.0" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="22" r="0.8" opacity="0.4"/>
+    </g>
+
+    <!-- night ridgelines -->
+    <path d="M0,118 L200,96 L420,120 L640,92 L860,118 L1080,96 L1200,116 L1200,150 L0,150 Z" fill="#1C3445" opacity="0.7"/>
+    <path d="M0,150 L0,132 L240,112 L470,138 L700,110 L940,136 L1160,114 L1200,124 L1200,150 Z" fill="#0F1C26"/>
+
+    <!-- beacon -->
+    <g transform="translate(940,118)">
+      <circle r="14" fill="url(#fbeacon)">
+        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2" fill="#F0C880"/>
+    </g>
+
+    <!-- motto -->
+    <text x="600" y="70" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#F3ECDB" letter-spacing="0.5">entia non sunt multiplicanda praeter necessitatem</text>
+    <text x="600" y="96" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#A9C5D6" letter-spacing="3">ENTITIES MUST NOT BE MULTIPLIED BEYOND NECESSITY</text>
+  </g>
+</svg>
